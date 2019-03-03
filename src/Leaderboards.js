@@ -10,12 +10,12 @@ import Paper from '@material-ui/core/Paper';
 
 const styles = theme => ({
   root: {
-      width: '75%',
+      width: '50%',
       marginTop: theme.spacing.unit * 3,
       margin: "0 auto"
   },
   table: {
-    minWidth: 700,
+    minWidth: 400,
   },
 });
 
@@ -32,12 +32,6 @@ const rows = [
   createData('PizzaDude78', 4, 260),
   createData('OnMyFeet2019', 5, 244),
 ];
-
-const rows2 = [
-    createData('AirMonitor', 1, 4500),
-    createData('Appmosfera', 2, 4100),
-    createData('DIY', 3, 3600)
-]
 
 function Leaderboards(props) {
   const { classes } = props;
