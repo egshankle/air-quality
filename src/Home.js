@@ -7,7 +7,8 @@ import Typography from "@material-ui/core/Typography";
 
 const styles = theme => ({
   root: {
-    flexGrow: 1
+      flexGrow: 1,
+      marginTop: "20px"
   },
   paper: {
     padding: theme.spacing.unit * 2,
@@ -31,7 +32,7 @@ function Home(props) {
               src="https://upload.wikimedia.org/wikipedia/commons/4/40/Paolo_Bettini_profile.jpg"
               className="user-image"
               alt="profile"
-              height="150px"
+              height="125px"
             />
           </Paper>
         </Grid>
@@ -58,6 +59,7 @@ function Home(props) {
             <h1 className="map-text">My Measurements</h1>
 
             <iframe
+              title="map"
               src="https://www.google.com/maps/d/embed?mid=1GkWSW-Z6B-vV-a0tkTYqh6SGeqP-8zzx"
               width="640"
               height="480"
