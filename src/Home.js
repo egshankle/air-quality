@@ -22,9 +22,9 @@ function Home(props) {
   return (
     <div className={classes.root}>
       <Grid container spacing={24}>
-        <Grid item xs={12}>
-          <Paper className={classes.paper}>Name of App</Paper>
-        </Grid>
+        {/* <Grid item xs={12}>
+          <Paper className={classes.paper}>Inhale</Paper>
+        </Grid> */}
         <Grid item xs={4}>
           <Paper className={classes.paper}>
             <img
@@ -37,7 +37,7 @@ function Home(props) {
         <Grid item xs={4}>
           <Paper className={classes.paper}>
             <div className="user-info">
-              <h3 className="username">Paul</h3>
+              <h3 className="username">Paulo</h3>
               <p className="user-info">Morningside Heights</p>
               <p className="user-info">Cyclist</p>
             </div>
@@ -54,7 +54,8 @@ function Home(props) {
         </Grid>
         <Grid item xs={12}>
           <Paper className={classes.paper}>
-            <h3 className="map-text">My Measurements</h3>
+            <h1 className="map-text">My Measurements</h1>
+
             <iframe
               src="https://www.google.com/maps/d/embed?mid=1GkWSW-Z6B-vV-a0tkTYqh6SGeqP-8zzx"
               width="640"
