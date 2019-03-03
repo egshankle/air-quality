@@ -73,6 +73,7 @@ const tiers = [
         ],
         buttonText: 'Get started',
         buttonVariant: 'outlined',
+        buttonHref: 'http://habitatmap.org/habitatmap_docs/HowToBuildAnAirCastingAirMonitor.pdf',
     },
     {
         title: 'Appmosfera',
@@ -83,6 +84,7 @@ const tiers = [
         ],
         buttonText: 'Buy',
         buttonVariant: 'outlined',
+        buttonHref: 'https://appmosfera.me/',
     },
     {
         title: 'AirBeam',
@@ -91,6 +93,7 @@ const tiers = [
         description: ['AirBeam is a wearable air monitor that maps, graphs, and crowdsources your pollution exposures in real-time.'],
         buttonText: 'Buy',
         buttonVariant: 'outlined',
+        buttonHref: 'http://aircasting.org/',
     },
 ];
 
@@ -143,7 +146,7 @@ function Sensors(props) {
                     ))}
                   </CardContent>
                   <CardActions className={classes.cardActions}>
-                    <Button fullWidth variant={tier.buttonVariant} color="primary">
+                    <Button fullWidth variant={tier.buttonVariant} color="primary" href={tier.buttonHref}>
                       {tier.buttonText}
                     </Button>
                   </CardActions>
