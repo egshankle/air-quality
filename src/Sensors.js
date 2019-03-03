@@ -72,7 +72,7 @@ const tiers = [
         'AirCasting is a platform for recording, mapping, and sharing health and environmental data using your smartphone.',
         ],
         buttonText: 'Get started',
-        buttonVariant: 'contained',
+        buttonVariant: 'outlined',
     },
     {
         title: 'Appmosfera',
