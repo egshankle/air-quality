@@ -31,6 +31,7 @@ function Home(props) {
               src="https://upload.wikimedia.org/wikipedia/commons/4/40/Paolo_Bettini_profile.jpg"
               className="user-image"
               alt="profile"
+              height="150px"
             />
           </Paper>
         </Grid>
