@@ -146,7 +146,7 @@ function Sensors(props) {
                     ))}
                   </CardContent>
                   <CardActions className={classes.cardActions}>
-                    <Button fullWidth variant={tier.buttonVariant} color="primary" href={tier.buttonHref}>
+                    <Button fullWidth variant={tier.buttonVariant} color="primary" href={tier.buttonHref} target="_blank" rel="noopener">
                       {tier.buttonText}
                     </Button>
                   </CardActions>
