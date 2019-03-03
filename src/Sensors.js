@@ -93,10 +93,10 @@ const tiers = [
         buttonVariant: 'outlined',
     },
 ];
-   
+
 function Sensors(props) {
     const { classes } = props;
-  
+
     return (
       <React.Fragment>
         <CssBaseline />
