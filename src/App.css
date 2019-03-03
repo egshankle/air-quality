@@ -23,6 +23,20 @@
   color: #61dafb;
 }
 
+.map-img {
+  max-height: 300px;
+}
+
+.user-image {
+  max-height: 125px;
+  /* border-radius: 50%; */
+  max-width: 125px;
+}
+
+.user-info {
+  text-align: left;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
