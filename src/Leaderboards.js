@@ -55,9 +55,6 @@ function Leaderboards(props) {
         <TableBody>
           {rows.map(row => (
             <TableRow key={row.id}>
-              <TableCell component="th" scope="row">
-                {row.name}
-              </TableCell>
               <TableCell align="right">{row.user}</TableCell>
               <TableCell align="right">{row.rank}</TableCell>
               <TableCell align="right">{row.aqd}</TableCell>
@@ -77,9 +74,6 @@ function Leaderboards(props) {
         <TableBody>
           {rows.map(row => (
             <TableRow key={row.id}>
-              <TableCell component="th" scope="row">
-                {row.name}
-              </TableCell>
               <TableCell align="right">{row.user}</TableCell>
               <TableCell align="right">{row.rank}</TableCell>
               <TableCell align="right">{row.aqd}</TableCell>

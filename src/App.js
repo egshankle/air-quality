@@ -24,6 +24,9 @@ const styles = {
         color: "#fff",
         textDecoration: "none",
         marginRight: "40px"
+    },
+    content: {
+        margin: "0 40px"
     }
 };
 
@@ -48,9 +51,11 @@ class App extends Component {
                       </Typography>
                     </Toolbar>
                   </AppBar>
+                  <div className={classes.content}>
                   <Route exact path="/" component={Home} />
                   <Route path="/leaderboard" component={Leaderboard} />
                   <Route path="/sensors" component={Sensors} />
+            </div>
                 </div>
               </Router>
             </CssBaseline>
