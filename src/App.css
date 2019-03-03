@@ -29,6 +29,8 @@
 
 .user-image {
   max-height: 125px;
+  border-radius: 50%;
+  max-width: 125px;
 }
 
 .user-info {
