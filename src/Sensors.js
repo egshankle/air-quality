@@ -65,14 +65,6 @@ const styles = theme => ({
 
 const tiers = [
     {
-        title: 'AirBeam',
-        image: 'images/AirBeam.jpg',
-        price: '259',
-        description: ['AirBeam is a wearable air monitor that maps, graphs, and crowdsources your pollution exposures in real-time.'],
-        buttonText: 'Buy',
-        buttonVariant: 'outlined',
-    },
-    {
         title: 'DIY',
         image: 'images/diy.jpg',
         price: '?',
@@ -89,6 +81,14 @@ const tiers = [
         description: [
         'Simply designed and compatible with all bicycles to update your smartphone in real-time. Can also be built as a kit.',
         ],
+        buttonText: 'Buy',
+        buttonVariant: 'outlined',
+    },
+    {
+        title: 'AirBeam',
+        image: 'images/AirBeam.jpg',
+        price: '259',
+        description: ['AirBeam is a wearable air monitor that maps, graphs, and crowdsources your pollution exposures in real-time.'],
         buttonText: 'Buy',
         buttonVariant: 'outlined',
     },
