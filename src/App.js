@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "./Home";
-import Leaderboard from "./Leaderboard";
+import Leaderboard from "./Leaderboards";
 import Sensors from "./Sensors";
 import CssBaseline from '@material-ui/core/CssBaseline';
 import AppBar from '@material-ui/core/AppBar';

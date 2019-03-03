@@ -91,7 +91,7 @@ function Leaderboards(props) {
   );
 }
 
-SimpleTable.propTypes = {
+Leaderboards.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
